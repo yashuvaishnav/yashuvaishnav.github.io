@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.99629b56.css",
+    "main.css": "/static/css/main.d8923c96.css",
     "main.js": "/static/js/main.52b7f33c.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/Traveller.png": "/static/media/Traveller.1e919e91122b702491fe.png",
@@ -10,12 +10,12 @@
     "static/media/swiftPay.png": "/static/media/swiftPay.9ea4ed6e54417e4c79df.png",
     "static/media/logo1.svg": "/static/media/logo1.f2460ef40d3445d188b36b897c8906e0.svg",
     "index.html": "/index.html",
-    "main.99629b56.css.map": "/static/css/main.99629b56.css.map",
+    "main.d8923c96.css.map": "/static/css/main.d8923c96.css.map",
     "main.52b7f33c.js.map": "/static/js/main.52b7f33c.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.99629b56.css",
+    "static/css/main.d8923c96.css",
     "static/js/main.52b7f33c.js"
   ]
 }
