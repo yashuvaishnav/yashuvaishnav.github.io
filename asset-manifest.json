@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.d8923c96.css",
-    "main.js": "/static/js/main.59386b56.js",
+    "main.js": "/static/js/main.5061cdb0.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/Traveller.png": "/static/media/Traveller.1e919e91122b702491fe.png",
     "static/media/Medicare.png": "/static/media/Medicare.8b2fe2ec4a0d6f81dcb9.png",
@@ -11,11 +11,11 @@
     "static/media/logo1.svg": "/static/media/logo1.f2460ef40d3445d188b36b897c8906e0.svg",
     "index.html": "/index.html",
     "main.d8923c96.css.map": "/static/css/main.d8923c96.css.map",
-    "main.59386b56.js.map": "/static/js/main.59386b56.js.map",
+    "main.5061cdb0.js.map": "/static/js/main.5061cdb0.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d8923c96.css",
-    "static/js/main.59386b56.js"
+    "static/js/main.5061cdb0.js"
   ]
 }
