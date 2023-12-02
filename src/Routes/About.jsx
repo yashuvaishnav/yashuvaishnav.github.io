@@ -10,6 +10,7 @@ export const About = () => {
     <>
       <div id="main_about_link" className={styles.mainAboutDiv}>
         <div className={styles.about_outerDivImg}>
+          {/* change the profile picture */}
           <div className={styles.about_InnerDivImg} id="home">
             <img className="home-img" src={profile} alt="" />
           </div>
