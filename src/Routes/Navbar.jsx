@@ -77,7 +77,7 @@ export const Navbar = () => {
               id="resume-button-1"
               onClick={() =>
                 openInNewTab(
-                  "https://drive.google.com/file/d/1jEpup5-x3NRz8ZQ1zkYjLRRcWIpjXs0k/view?usp=sharing"
+                  "https://drive.google.com/file/d/1xcEfUBgh17Nha-TMBFr4PhdDvXOzOSl9/view?usp=sharing"
                 )
               }
             >
