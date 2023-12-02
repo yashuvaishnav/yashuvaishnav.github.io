@@ -16,69 +16,74 @@ export const Projects = () => {
       id="projects"
     >
       <EveryHeading>PROJECTS</EveryHeading>
+      
       <div className={styles.mainProjects_mainDiv}>
-        <div className={styles.mainProjects_mainDiv_project1}>
-          <div className={styles.mainProjects_mainDiv_project1_img}>
-            <img src={swiftPay} alt="" />
-          </div>
-          <div className={styles.mainProjects_mainDiv_project1_summary}>
-            <div>
-              {" "}
-              <h2>swiftPay App</h2>
-              <p>
-                swiftPay is your all-in-one, secure payment application designed
-                to simplify your financial transactions and elevate your money
-                management experience. With a user-friendly interface and
-                cutting-edge security features, swiftPay ensures hassle-free and
-                worry-free payments. This was a group project which was built by
-                me and my team in span of 5-days using React, Redux, Styled
-                component, CSS and Recharts.
-              </p>
+      <div className="project-card">
+          <div className={styles.mainProjects_mainDiv_project1}>
+            <div className={styles.mainProjects_mainDiv_project1_img}>
+              <img src={swiftPay} alt="" />
             </div>
-            <div className={styles.mainProjects_mainDiv_project1_summary_flex}>
+            <div className={styles.mainProjects_mainDiv_project1_summary}>
               <div>
-                <a
-                  target="_blank"
-                  href="https://warlike-current-5989-gamma.vercel.app"
-                >
-                  <button className={styles1.viewDemoButton}>View Demo</button>
-                </a>
+                {" "}
+                <h2 className="project-title">swiftPay App</h2>
+                <p className="project-description">
+                  swiftPay is your all-in-one, secure payment application designed
+                  to simplify your financial transactions and elevate your money
+                  management experience. With a user-friendly interface and
+                  cutting-edge security features, swiftPay ensures hassle-free and
+                  worry-free payments. This was a group project which was built by
+                  me and my team in span of 5-days using React, Redux, Styled
+                  component, CSS and Recharts.
+                </p>
               </div>
-              <div>
-                <a
-                  target="_blank"
-                  href="https://github.com/yashuvaishnav/warlike-current-5989"
+              <div className={styles.mainProjects_mainDiv_project1_summary_flex}>
+                <div>
+                {/* <div> */}
+                  <a className="project-deployed-link"
+                    target="_blank"
+                    href="https://warlike-current-5989-gamma.vercel.app"
+                  >
+                    <button className={styles1.viewDemoButton}>View Demo</button>
+                  </a>
+                </div>
+                <div>
+                  <a className="project-github-link"
+                    target="_blank"
+                    href="https://github.com/yashuvaishnav/warlike-current-5989"
+                  >
+                    <button className={styles1.viewDemoButton}>
+                      View Source
+                    </button>
+                  </a>
+                </div>
+                {/* </div> */}
+                <div
+                  className={
+                    styles.mainProjects_mainDiv_project1_summary_flex_icon
+                  }
                 >
-                  <button className={styles1.viewDemoButton}>
-                    View Source
-                  </button>
-                </a>
-              </div>
-              <div
-                className={
-                  styles.mainProjects_mainDiv_project1_summary_flex_icon
-                }
-              >
-                <IconSmall>
-                  <img
-                    src="https://engineering.grab.com/img/grabs-front-end-study-guide/react-logo.svg"
-                    width="40px"
-                    height="40px"
-                    alt=""
-                  />
-                </IconSmall>
-                <IconSmall>
-                  <img
-                    src="https://th.bing.com/th/id/OIP.AOg9QcyeZGiVUE3ew2PBvAAAAA?pid=ImgDet&w=40&h=40&rs=1"
-                    alt=""
-                  />
-                </IconSmall>
-                <IconSmall>
-                  <img
-                    src="https://th.bing.com/th/id/OIP.Bc06hywVxgK6Mlq1DUsEaQHaHa?pid=ImgDet&w=37&h=40&rs=1"
-                    alt=""
-                  />
-                </IconSmall>
+                  <IconSmall>
+                    <img
+                      src="https://engineering.grab.com/img/grabs-front-end-study-guide/react-logo.svg"
+                      width="40px"
+                      height="40px"
+                      alt=""
+                    />
+                  </IconSmall>
+                  <IconSmall>
+                    <img
+                      src="https://th.bing.com/th/id/OIP.AOg9QcyeZGiVUE3ew2PBvAAAAA?pid=ImgDet&w=40&h=40&rs=1"
+                      alt=""
+                    />
+                  </IconSmall>
+                  <IconSmall>
+                    <img
+                      src="https://th.bing.com/th/id/OIP.Bc06hywVxgK6Mlq1DUsEaQHaHa?pid=ImgDet&w=37&h=40&rs=1"
+                      alt=""
+                    />
+                  </IconSmall>
+                </div>
               </div>
             </div>
           </div>

@@ -41,6 +41,7 @@ export const Calender = () => {
         }}
       >
         <img
+          className="react-activity-calendar"
           alt="yash"
           src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=yashuvaishnav&theme=github_dark"
           align="center"

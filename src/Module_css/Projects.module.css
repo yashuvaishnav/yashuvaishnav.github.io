@@ -58,6 +58,8 @@
 .mainProjects_mainDiv_project1_summary_flex {
     display: flex;
     justify-content: left;
+    flex-flow: row wrap;
+    position: relative;
 }
 .mainProjects_mainDiv_project1_summary_flex div:nth-child(1) button {
     margin-left: 0px;
@@ -102,7 +104,7 @@
     margin-bottom: 1em;
 }
 
-@media (min-width:760px) and (max-width:950px) {
+/* @media (min-width:760px) and (max-width:950px) {
     
     .mainProjects_mainDiv_project1_summary_flex {
         display: flex;
@@ -116,7 +118,7 @@
         justify-content: center;
         align-items: center;
     }
-}
+} */
 
 @media (max-width: 760px) {
     .mainProjects_mainDiv_project1 {
@@ -172,24 +174,29 @@
     }
 
     .mainProjects_mainDiv_project1_summary_flex_icon * {
-        margin-left: 1em;
+            margin-left: 10px;
+    margin-right: 10px;
         transition: all 0.3s ease;
     }
 
     .mainProjects_mainDiv_project1_summary_flex_icon i:nth-child(1):hover {
-        margin-left: 1em;
+            margin-left: 10px;
+    margin-right: 10px;
         margin-bottom: 0em;
     }
     .mainProjects_mainDiv_project1_summary_flex_icon i:nth-child(2):hover {
-        margin-left: 1em;
+            margin-left: 10px;
+    margin-right: 10px;
         margin-bottom: 0em;
     }
     .mainProjects_mainDiv_project1_summary_flex_icon i:nth-child(3):hover {
-        margin-left: 1em;
+            margin-left: 10px;
+    margin-right: 10px;
         margin-bottom: 0em;
     }
     .mainProjects_mainDiv_project1_summary_flex_icon i:nth-child(4):hover {
-        margin-left: 1em;
+            margin-left: 10px;
+    margin-right: 10px;
         margin-bottom: 0em;
     }
 }
@@ -199,3 +206,9 @@
         margin-left: 0.2em;
     }
 }
+
+/* @media (min-width: 760px) and (max-width: 950px) {
+    .mainProjects_mainDiv_project1_summary_flex > div {
+        flex-basis: 42%;
+    }
+} */

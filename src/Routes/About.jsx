@@ -15,7 +15,7 @@ export const About = () => {
           </div>
         </div>
         <div className={styles.about_nameH1Div}>
-          <h1>
+          <h1 id="about" className="about section">
             <span className={styles.about_hii}> Hi, &nbsp;</span>
             <span id="user-detail-name">
               {" "}
@@ -89,11 +89,7 @@ export const About = () => {
           </a>
         </div>
       </div>
-      
     </>
   );
 };
 
-// cheking
-//line 26 --> id=user-detail-intro 
-// check
