@@ -2,7 +2,7 @@ import React from "react";
 import styles from "../Module_css/Projects.module.css";
 import styles1 from "../Module_css/About.module.css";
 import Traveller from "../Images/Traveller.png";
-import Medicare from "../Images/Medicare.png";
+import TechWave from "../Images/TechWave.png";
 import AcadmiaIQ from "../Images/AcadmialQ.png";
 import swiftPay from "../Images/swiftPay.png";
 import { IconSmall } from "../Styled/DeviconIcon";
@@ -88,7 +88,77 @@ export const Projects = () => {
             </div>
           </div>
         </div>
-        <div className="project-card">
+      <div className="project-card">
+          <div className={styles.mainProjects_mainDiv_project1}>
+            <div className={styles.mainProjects_mainDiv_project1_img}>
+              <img src={TechWave} alt="" />
+            </div>
+            <div className={styles.mainProjects_mainDiv_project1_summary}>
+              <div>
+                {" "}
+                <h2 className="project-title">TechWave App</h2>
+                <p className="project-description">
+                 Tech Wave is a comprehensive full-stack project that offers users
+                 a seamless educational experience. With features like user registration
+                 and login, Tech Wave provides access to a wide range of courses. Users
+                 can explore and preview individual courses through demo videos before
+                 making a purchase decision.
+                </p>
+              </div>
+              <div
+                className={styles.mainProjects_mainDiv_project1_summary_flex}
+              >
+                <div>
+                  <a
+                    className="project-deployed-link"
+                    target="_blank"
+                    href="https://tech-wave-gold.vercel.app"
+                  >
+                    <button className={styles1.viewDemoButton}>
+                      View Demo
+                    </button>
+                  </a>
+                </div>
+                <div>
+                  <a
+                    className="project-github-link"
+                    target="_blank"
+                    href="https://github.com/yashuvaishnav/ambiguous-oven-8467"
+                  >
+                    <button className={styles1.viewDemoButton}>
+                      View Source
+                    </button>
+                  </a>
+                </div>
+                <div
+                  className={
+                    styles.mainProjects_mainDiv_project1_summary_flex_icon
+                  }
+                >
+                  <IconSmall>
+                    <img
+                      src="https://th.bing.com/th/id/OIP.ZNgBDR2Q1oaKnn07xaNG4wAAAA?pid=ImgDet&w=40&h=40&rs=1"
+                      alt=""
+                    />
+                  </IconSmall>
+                  <IconSmall>
+                    <img
+                      src="https://th.bing.com/th/id/OIP.AOg9QcyeZGiVUE3ew2PBvAAAAA?pid=ImgDet&w=40&h=40&rs=1"
+                      alt=""
+                    />
+                  </IconSmall>
+                  <IconSmall>
+                    <img
+                      src="https://th.bing.com/th/id/OIP.Bc06hywVxgK6Mlq1DUsEaQHaHa?pid=ImgDet&w=37&h=40&rs=1"
+                      alt=""
+                    />
+                  </IconSmall>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      <div className="project-card">
           <div className={styles.mainProjects_mainDiv_project1}>
             <div className={styles.mainProjects_mainDiv_project1_img}>
               <img src={Traveller} alt="" />
@@ -159,7 +229,7 @@ export const Projects = () => {
             </div>
           </div>
         </div>
-        <div className="project-card">
+      <div className="project-card">
           <div className={styles.mainProjects_mainDiv_project1}>
             <div className={styles.mainProjects_mainDiv_project1_img}>
               <img src={AcadmiaIQ} alt="" />
@@ -232,76 +302,7 @@ export const Projects = () => {
             </div>
           </div>
         </div>
-        <div className="project-card">
-          <div className={styles.mainProjects_mainDiv_project1}>
-            <div className={styles.mainProjects_mainDiv_project1_img}>
-              <img src={Medicare} alt="" />
-            </div>
-            <div className={styles.mainProjects_mainDiv_project1_summary}>
-              <div>
-                {" "}
-                <h2 className="project-title">Medicare App</h2>
-                <p className="project-description">
-                  This Medicare App enable user to signup/login, Revolutionize
-                  healthcare shopping with our E-Commerce Medicine App. Easy,
-                  secure, and fast access to medicines and healthcare essentials
-                  from your device. Shop with confidence This was a individual
-                  project which was done by me in 5-days using HTML, CSS and JS.
-                </p>
-              </div>
-              <div
-                className={styles.mainProjects_mainDiv_project1_summary_flex}
-              >
-                <div>
-                  <a
-                    className="project-deployed-link"
-                    target="_blank"
-                    href="https://guileless-macaron-42a172.netlify.app"
-                  >
-                    <button className={styles1.viewDemoButton}>
-                      View Demo
-                    </button>
-                  </a>
-                </div>
-                <div>
-                  <a
-                    className="project-github-link"
-                    target="_blank"
-                    href="https://github.com/yashuvaishnav/godly-rake-5952"
-                  >
-                    <button className={styles1.viewDemoButton}>
-                      View Source
-                    </button>
-                  </a>
-                </div>
-                <div
-                  className={
-                    styles.mainProjects_mainDiv_project1_summary_flex_icon
-                  }
-                >
-                  <IconSmall>
-                    <img
-                      src="https://th.bing.com/th/id/OIP.ZNgBDR2Q1oaKnn07xaNG4wAAAA?pid=ImgDet&w=40&h=40&rs=1"
-                      alt=""
-                    />
-                  </IconSmall>
-                  <IconSmall>
-                    <img
-                      src="https://th.bing.com/th/id/OIP.AOg9QcyeZGiVUE3ew2PBvAAAAA?pid=ImgDet&w=40&h=40&rs=1"
-                      alt=""
-                    />
-                  </IconSmall>
-                  <IconSmall>
-                    <img
-                      src="https://th.bing.com/th/id/OIP.Bc06hywVxgK6Mlq1DUsEaQHaHa?pid=ImgDet&w=37&h=40&rs=1"
-                      alt=""
-                    />
-                  </IconSmall>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+        
       </div>
     </div>
   );

@@ -4,7 +4,7 @@ import {
   NavbarMainDiv,
   NavbarHam,
 } from "../Styled/NavbarDiv";
-import logo1 from "../Images/logo1.svg";
+// import logo1 from "../Images/logo1.svg";
 import { Link } from "react-scroll";
 import { HamburgerMenuFun } from "./HamburgerMenu";
 
@@ -77,7 +77,7 @@ export const Navbar = () => {
               id="resume-button-1"
               onClick={() =>
                 openInNewTab(
-                  "https://drive.google.com/file/d/1xcEfUBgh17Nha-TMBFr4PhdDvXOzOSl9/view?usp=sharing"
+                  "https://drive.google.com/file/d/1m6S0Vb_ladQt7AROuIN8wFN4mNP7Y_ZP/view?usp=sharing"
                 )
               }
             >
