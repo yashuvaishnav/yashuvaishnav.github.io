@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/static/css/main.d8923c96.css",
-    "main.js": "/static/js/main.24de0a5b.js",
+    "main.js": "/static/js/main.179d5f0a.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/Traveller.png": "/static/media/Traveller.1e919e91122b702491fe.png",
     "static/media/Medicare.png": "/static/media/Medicare.8b2fe2ec4a0d6f81dcb9.png",
-    "static/media/profile.png": "/static/media/profile.7889567e6d1eda9543fb.png",
     "static/media/AcadmialQ.png": "/static/media/AcadmialQ.76217444e430eb683d76.png",
+    "static/media/profile.png": "/static/media/profile.dc9b123f9a75f6870177.png",
     "static/media/swiftPay.png": "/static/media/swiftPay.9ea4ed6e54417e4c79df.png",
     "static/media/logo1.svg": "/static/media/logo1.f2460ef40d3445d188b36b897c8906e0.svg",
     "index.html": "/index.html",
     "main.d8923c96.css.map": "/static/css/main.d8923c96.css.map",
-    "main.24de0a5b.js.map": "/static/js/main.24de0a5b.js.map",
+    "main.179d5f0a.js.map": "/static/js/main.179d5f0a.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d8923c96.css",
-    "static/js/main.24de0a5b.js"
+    "static/js/main.179d5f0a.js"
   ]
 }
