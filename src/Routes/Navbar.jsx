@@ -13,7 +13,6 @@ export const Navbar = () => {
     window.open(url, "_blank", "noreferrer");
   };
   
-
   return (
     <NavbarMainDiv id="nav-menu">
       <NavbarDiv>
@@ -77,7 +76,7 @@ export const Navbar = () => {
               id="resume-button-1"
               onClick={() =>
                 openInNewTab(
-                  "https://drive.google.com/file/d/1m6S0Vb_ladQt7AROuIN8wFN4mNP7Y_ZP/view?usp=sharing"
+                  "https://drive.google.com/file/d/1TKwoysksS0BfDhcwAZQdJgXGedTxdtQQ/view?usp=sharing"
                 )
               }
             >

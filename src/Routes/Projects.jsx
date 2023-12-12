@@ -50,7 +50,7 @@ export const Projects = () => {
                 <div>
                   <a className="project-github-link"
                     target="_blank"
-                    href="https://github.com/yashuvaishnav/warlike-current-5989"
+                    href="https://github.com/yashuvaishnav/SwiftPay-Finance-App"
                   >
                     <button className={styles1.viewDemoButton}>
                       View Source
@@ -123,7 +123,7 @@ export const Projects = () => {
                   <a
                     className="project-github-link"
                     target="_blank"
-                    href="https://github.com/yashuvaishnav/ambiguous-oven-8467"
+                    href="https://github.com/yashuvaishnav/TechWave-Education-Platform"
                   >
                     <button className={styles1.viewDemoButton}>
                       View Source
@@ -194,7 +194,7 @@ export const Projects = () => {
                   <a
                     className="project-github-link"
                     target="_blank"
-                    href="https://github.com/yashuvaishnav/MyProject-resilient-partner-542"
+                    href="https://github.com/yashuvaishnav/Traveller-Travel-Agency-Website"
                   >
                     <button className={styles1.viewDemoButton}>
                       View Source
@@ -302,7 +302,6 @@ export const Projects = () => {
             </div>
           </div>
         </div>
-        
       </div>
     </div>
   );
