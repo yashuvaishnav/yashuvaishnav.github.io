@@ -98,7 +98,7 @@ export const Skills = () => {
           </div>
           <div>
             <StyledIconReact>
-            <img className="skills-card-img" src="https://jquery-plugins.net/image/plugin/chakra-ui-simple-modular-accessible-ui-components-for-react-applications.png" width="100px" height="100px" alt="" />
+            <img className="skills-card-img" src="https://upscalix.com.au/wp-content/uploads/2022/10/chakra.png" width="100px" height="100px" alt="" />
             </StyledIconReact>
             <EveryHeading2 className="skills-card-name">Chakra UI</EveryHeading2>
           </div>
