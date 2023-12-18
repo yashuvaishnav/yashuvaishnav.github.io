@@ -12,7 +12,7 @@ export const Skills = () => {
       id="skills"
     >
       <div className={styles.skill_mainHeading}>
-        <EveryHeading className="skills-card-name">Skills</EveryHeading>
+        <EveryHeading className="skills-card-name">Skills And Tools</EveryHeading>
       </div>
       <div className="skills-card">
         <div className={styles.skill_gridMain}>
@@ -77,6 +77,36 @@ export const Skills = () => {
             <img className="skills-card-img" src="https://th.bing.com/th/id/OIP.PisgvQ7qnar--dmr6mCDUQHaHa?pid=ImgDet&w=100&h=100&rs=1" alt="" />
             </StyledIconReact>
             <EveryHeading2 className="skills-card-name">GITHUB</EveryHeading2>
+          </div>
+          <div>
+            <StyledIconReact>
+            <img className="skills-card-img" src="https://th.bing.com/th/id/OIP.ORnlsvc38UKkWSEyDmZjggAAAA?rs=1&pid=ImgDetMain" width="100px" height="100px" alt="" />
+            </StyledIconReact>
+            <EveryHeading2 className="skills-card-name">VS Code</EveryHeading2>
+          </div>
+          <div>
+            <StyledIconReact>
+            <img className="skills-card-img" src="https://yt3.ggpht.com/a/AGF-l791ySSDFwSHTYVjI0BMuuyqlFmiMutGcvcYcA=s900-c-k-c0xffffffff-no-rj-mo" width="100px" height="100px" alt="" />
+            </StyledIconReact>
+            <EveryHeading2 className="skills-card-name">Postman</EveryHeading2>
+          </div>
+          <div>
+            <StyledIconReact>
+            <img className="skills-card-img" src="https://andrejgajdos.com/wp-content/uploads/2019/11/npm-logo.png?x24361" width="100px" height="100px" alt="" />
+            </StyledIconReact>
+            <EveryHeading2 className="skills-card-name">NPM</EveryHeading2>
+          </div>
+          <div>
+            <StyledIconReact>
+            <img className="skills-card-img" src="https://jquery-plugins.net/image/plugin/chakra-ui-simple-modular-accessible-ui-components-for-react-applications.png" width="100px" height="100px" alt="" />
+            </StyledIconReact>
+            <EveryHeading2 className="skills-card-name">Chakra UI</EveryHeading2>
+          </div>
+          <div>
+            <StyledIconReact>
+            <img className="skills-card-img" src="https://static-00.iconduck.com/assets.00/netlify-icon-511x512-idkvcd89.png" width="100px" height="100px" alt="" />
+            </StyledIconReact>
+            <EveryHeading2 className="skills-card-name">Netlify</EveryHeading2>
           </div>
         </div>
       </div>
