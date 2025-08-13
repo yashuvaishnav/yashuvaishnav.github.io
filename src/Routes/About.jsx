@@ -30,10 +30,7 @@ export const About = () => {
         </div>
         <div className={styles.about_descPDiv} >
           <p id="user-detail-intro">
-            A passionate programmer with a curious mind who loves solving
-            problems. I have an experience of building Web applications with
-            JavaScript / Reactjs / HTML / CSS etc. I'm currently actively
-            looking for new opportunities
+            Full Stack Web Developer with 8 months of experience at Algorisys Technologies, delivering MERN stack projects from design to deployment. Skilled in building scalable, responsive web applications using React, Redux, Node.js, and MongoDB. Passionate about solving problems, optimizing performance, and delivering clean, maintainable code.
           </p>
         </div>
         <div className={styles.about_outerDiv_icons}>
@@ -74,7 +71,7 @@ export const About = () => {
         <div className={styles.about_address_numberDiv}>
           <div>
             <TiLocation />
-            <p>Rajasthan, India</p>
+            <p>Indore, India</p>
           </div>
           <div>
             <FiSmartphone />

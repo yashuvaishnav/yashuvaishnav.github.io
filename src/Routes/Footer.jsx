@@ -54,7 +54,7 @@ export const Footer = () => {
       <div className={styles.footer_address_numberDiv} id="contact">
         <div>
           <TiLocation />
-          <p>Rajasthan, India</p>
+          <p>Indore, India</p>
         </div>
         <div>
           <FiMail />
@@ -66,7 +66,7 @@ export const Footer = () => {
         </div>
       </div>
       <div className={styles.footer_designBy}>
-        <p> ©️ 2023,Yash Vaishnav</p>
+        <p> ©️ 2024,Yash Vaishnav</p>
       </div>
     </div>
   );

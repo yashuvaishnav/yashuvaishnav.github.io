@@ -1,8 +1,13 @@
 import React from "react";
 import styles from "../Module_css/Projects.module.css";
 import styles1 from "../Module_css/About.module.css";
-import Traveller from "../Images/Traveller.png";
+import ChakraUI from "../Images/ChakraUI.png";
 import TechWave from "../Images/TechWave.png";
+import Redux from "../Images/Redux.png";
+import ReactSvg from "../Images/ReactSvg.png";
+import JavaScript from "../Images/JavaScript.png";
+import Event_Management from "../Images/Event_Management.png";
+import MongoDB from "../Images/MongoDB.png"
 import AcadmiaIQ from "../Images/AcadmialQ.png";
 import swiftPay from "../Images/swiftPay.png";
 import { IconSmall } from "../Styled/DeviconIcon";
@@ -16,9 +21,9 @@ export const Projects = () => {
       id="projects"
     >
       <EveryHeading>PROJECTS</EveryHeading>
-      
+
       <div className={styles.mainProjects_mainDiv}>
-      <div className="project-card">
+        <div className="project-card">
           <div className={styles.mainProjects_mainDiv_project1}>
             <div className={styles.mainProjects_mainDiv_project1_img}>
               <img src={swiftPay} alt="" />
@@ -28,27 +33,33 @@ export const Projects = () => {
                 {" "}
                 <h2 className="project-title">swiftPay App</h2>
                 <p className="project-description">
-                  swiftPay is your all-in-one, secure payment application designed
-                  to simplify your financial transactions and elevate your money
-                  management experience. With a user-friendly interface and
-                  cutting-edge security features, swiftPay ensures hassle-free and
-                  worry-free payments. This was a group project which was built by
-                  me and my team in span of 5-days using React, Redux, Styled
-                  component, CSS and Recharts.
+                  swiftPay is your all-in-one, secure payment application
+                  designed to simplify your financial transactions and elevate
+                  your money management experience. With a user-friendly
+                  interface and cutting-edge security features, swiftPay ensures
+                  hassle-free and worry-free payments. This was a group project
+                  which was built by me and my team in span of 5-days using
+                  React, Redux, Styled component, CSS and Recharts.
                 </p>
               </div>
-              <div className={styles.mainProjects_mainDiv_project1_summary_flex}>
+              <div
+                className={styles.mainProjects_mainDiv_project1_summary_flex}
+              >
                 <div>
-                {/* <div> */}
-                  <a className="project-deployed-link"
+                  {/* <div> */}
+                  <a
+                    className="project-deployed-link"
                     target="_blank"
                     href="https://warlike-current-5989-gamma.vercel.app"
                   >
-                    <button className={styles1.viewDemoButton}>View Demo</button>
+                    <button className={styles1.viewDemoButton}>
+                      View Demo
+                    </button>
                   </a>
                 </div>
                 <div>
-                  <a className="project-github-link"
+                  <a
+                    className="project-github-link"
                     target="_blank"
                     href="https://github.com/yashuvaishnav/SwiftPay-Finance-App"
                   >
@@ -65,21 +76,19 @@ export const Projects = () => {
                 >
                   <IconSmall>
                     <img
-                      src="https://engineering.grab.com/img/grabs-front-end-study-guide/react-logo.svg"
-                      width="40px"
-                      height="40px"
+                      src={JavaScript}
                       alt=""
                     />
                   </IconSmall>
                   <IconSmall>
                     <img
-                      src="https://th.bing.com/th/id/OIP.AOg9QcyeZGiVUE3ew2PBvAAAAA?pid=ImgDet&w=40&h=40&rs=1"
+                      src={ReactSvg}
                       alt=""
                     />
                   </IconSmall>
                   <IconSmall>
                     <img
-                      src="https://th.bing.com/th/id/OIP.Bc06hywVxgK6Mlq1DUsEaQHaHa?pid=ImgDet&w=37&h=40&rs=1"
+                      src={Redux}
                       alt=""
                     />
                   </IconSmall>
@@ -88,7 +97,7 @@ export const Projects = () => {
             </div>
           </div>
         </div>
-      <div className="project-card">
+        <div className="project-card">
           <div className={styles.mainProjects_mainDiv_project1}>
             <div className={styles.mainProjects_mainDiv_project1_img}>
               <img src={TechWave} alt="" />
@@ -98,11 +107,12 @@ export const Projects = () => {
                 {" "}
                 <h2 className="project-title">TechWave App</h2>
                 <p className="project-description">
-                 Tech Wave is a comprehensive full-stack project that offers users
-                 a seamless educational experience. With features like user registration
-                 and login, Tech Wave provides access to a wide range of courses. Users
-                 can explore and preview individual courses through demo videos before
-                 making a purchase decision.
+                  Tech Wave is a comprehensive full-stack project that offers
+                  users a seamless educational experience. With features like
+                  user registration and login, Tech Wave provides access to a
+                  wide range of courses. Users can explore and preview
+                  individual courses through demo videos before making a
+                  purchase decision.
                 </p>
               </div>
               <div
@@ -137,19 +147,19 @@ export const Projects = () => {
                 >
                   <IconSmall>
                     <img
-                      src="https://th.bing.com/th/id/OIP.ZNgBDR2Q1oaKnn07xaNG4wAAAA?pid=ImgDet&w=40&h=40&rs=1"
+                      src={JavaScript}
                       alt=""
                     />
                   </IconSmall>
                   <IconSmall>
                     <img
-                      src="https://th.bing.com/th/id/OIP.AOg9QcyeZGiVUE3ew2PBvAAAAA?pid=ImgDet&w=40&h=40&rs=1"
+                      src={ReactSvg}
                       alt=""
                     />
                   </IconSmall>
                   <IconSmall>
                     <img
-                      src="https://th.bing.com/th/id/OIP.Bc06hywVxgK6Mlq1DUsEaQHaHa?pid=ImgDet&w=37&h=40&rs=1"
+                      src={MongoDB}
                       alt=""
                     />
                   </IconSmall>
@@ -158,22 +168,22 @@ export const Projects = () => {
             </div>
           </div>
         </div>
-      <div className="project-card">
+        <div className="project-card">
           <div className={styles.mainProjects_mainDiv_project1}>
             <div className={styles.mainProjects_mainDiv_project1_img}>
-              <img src={Traveller} alt="" />
+              <img src={Event_Management} alt="" />
             </div>
             <div className={styles.mainProjects_mainDiv_project1_summary}>
               <div>
                 {" "}
-                <h2 className="project-title">Travller App</h2>
+                <h2 className="project-title">Event Management App</h2>
                 <p className="project-description">
-                  Traveller app is a website for a travel agency. The website
-                  contains details about tourist destinations, tour packages.
-                  This website allow people to book their dream destination with
-                  in their budgets. This was a collaborative project which was
-                  built by me and 4 other members in spane of 5-days using HTML,
-                  CSS and JavaScript.
+                  Our event application gives us full control over creating, 
+                  updating, and deleting events. As the sole admin, we customize
+                  each event to meet our needs, ensuring a seamless experience.
+                  Clients can easily join our events, and this admin-only approach
+                  ensures that every event remains uniquely ours, offering a 
+                  personalized and efficient management.
                 </p>
               </div>
               <div
@@ -183,7 +193,7 @@ export const Projects = () => {
                   <a
                     className="project-deployed-link"
                     target="_blank"
-                    href="https://648ff05711e1f629dd64fb2c--visionary-centaur-d4c88a.netlify.app"
+                    href="https://event-management-oj7d.onrender.com/"
                   >
                     <button className={styles1.viewDemoButton}>
                       View Demo
@@ -194,7 +204,7 @@ export const Projects = () => {
                   <a
                     className="project-github-link"
                     target="_blank"
-                    href="https://github.com/yashuvaishnav/Traveller-Travel-Agency-Website"
+                    href="https://github.com/yashuvaishnav/Event-Management"
                   >
                     <button className={styles1.viewDemoButton}>
                       View Source
@@ -208,19 +218,19 @@ export const Projects = () => {
                 >
                   <IconSmall>
                     <img
-                      src="https://th.bing.com/th/id/OIP.ZNgBDR2Q1oaKnn07xaNG4wAAAA?pid=ImgDet&w=40&h=40&rs=1"
+                      src={JavaScript}
                       alt=""
                     />
                   </IconSmall>
                   <IconSmall>
                     <img
-                      src="https://th.bing.com/th/id/OIP.AOg9QcyeZGiVUE3ew2PBvAAAAA?pid=ImgDet&w=40&h=40&rs=1"
+                      src={ReactSvg}
                       alt=""
                     />
                   </IconSmall>
                   <IconSmall>
                     <img
-                      src="https://th.bing.com/th/id/OIP.Bc06hywVxgK6Mlq1DUsEaQHaHa?pid=ImgDet&w=37&h=40&rs=1"
+                      src={MongoDB}
                       alt=""
                     />
                   </IconSmall>
@@ -229,7 +239,7 @@ export const Projects = () => {
             </div>
           </div>
         </div>
-      <div className="project-card">
+        <div className="project-card">
           <div className={styles.mainProjects_mainDiv_project1}>
             <div className={styles.mainProjects_mainDiv_project1_img}>
               <img src={AcadmiaIQ} alt="" />
@@ -279,21 +289,19 @@ export const Projects = () => {
                 >
                   <IconSmall>
                     <img
-                      src="https://engineering.grab.com/img/grabs-front-end-study-guide/react-logo.svg"
-                      width="40px"
-                      height="40px"
+                      src={JavaScript}
                       alt=""
                     />
                   </IconSmall>
                   <IconSmall>
                     <img
-                      src="https://th.bing.com/th/id/OIP.AOg9QcyeZGiVUE3ew2PBvAAAAA?pid=ImgDet&w=40&h=40&rs=1"
+                      src={ReactSvg}
                       alt=""
                     />
                   </IconSmall>
                   <IconSmall>
                     <img
-                      src="https://th.bing.com/th/id/OIP.Bc06hywVxgK6Mlq1DUsEaQHaHa?pid=ImgDet&w=37&h=40&rs=1"
+                      src={ChakraUI}
                       alt=""
                     />
                   </IconSmall>
